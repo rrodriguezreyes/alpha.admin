@@ -87,6 +87,9 @@ DATABASES = {
         'PASSWORD': 'P@$$w0rd',
         'HOST': 'alpha-dbserver.postgres.database.azure.com',
         'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',
+        }
     }
 }
 
