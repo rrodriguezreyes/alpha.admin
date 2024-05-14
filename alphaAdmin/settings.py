@@ -137,3 +137,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CSRF_TRUSTED_ORIGINS = ['https://*.alpha-adm.azurewebsites.net','https://*.127.0.0.1']
