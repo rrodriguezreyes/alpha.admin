@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'alpha',
         'PASSWORD': 'P@$$w0rd',
-        'HOST': 'localhost',
+        'HOST': 'alpha-dbserver.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
