@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-tc7=m5!obt1x!_0&$2=%#+z+n6oif^#lvb#u93ly$(d(h&e+gh
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['alpha-adm.azurewebsites.net']
+ALLOWED_HOSTS = ['alpha-adm.azurewebsites.net' ,'localhost']
 #ALLOWED_HOSTS = ['alpha-adm.azurewebsites.net' ]
 
 
