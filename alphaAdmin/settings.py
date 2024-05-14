@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-tc7=m5!obt1x!_0&$2=%#+z+n6oif^#lvb#u93ly$(d(h&e+gh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['alpha-adm.azurewebsites.net']
+
+ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['alpha-adm.azurewebsites.net' ]
+
 
 
 # Application definition
@@ -80,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'mysecretpassword',
-        'HOST': 'localhost',
+        'USER': 'alpha',
+        'PASSWORD': 'P@$$w0rd',
+        'HOST': 'alpha-dbserver.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
