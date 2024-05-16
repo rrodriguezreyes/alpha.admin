@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'alpha',
         'PASSWORD': 'P@$$w0rd',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
