@@ -2,6 +2,8 @@
 
 Este es el proyecto que contiene django-admin , solo es necesario descargar el proyeto y correrlo porque la base de datos esta en la nube
 
+https://alpha-adm.azurewebsites.net/admin/login/?next=/admin/
+
 El usuario es : alpha
 y la clave es: alpha123@
 
